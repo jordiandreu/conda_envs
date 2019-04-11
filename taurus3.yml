@@ -1,0 +1,16 @@
+name: taurus3
+channels:
+  - conda-forge
+  - tango-controls
+  - defaults
+dependencies:
+  - python=2.7.13
+  - tango=9.2.2
+  - pytango
+  - ipython=5.1 
+  - pyqt=4.11.4
+  - pip=9.0.3
+# This has to be installed from within the environment later on
+#  - pip:
+#    - git+https://github.com/taurus-org/taurus.git@3.7.5 --egg
+#    - git+https://github.com/sardana-org/sardana.git@2.5.0
