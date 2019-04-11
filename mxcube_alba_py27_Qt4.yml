@@ -1,0 +1,28 @@
+name: mxcube_alba_py27_Qt4
+channels:
+  - conda-forge
+  - tango-controls
+  - defaults
+dependencies:
+  - python=2.7.13
+  - tango=9.2.2
+  - pytango
+  - gevent=1.1.2
+  - pyqt=4.11.4
+  - numpy=1.12.1
+  - scipy=0.18.1
+  - matplotlib=2.0.0
+  - suds-jurko #=0.6 #(replacement for suds-py3)
+  - pyyaml #=5.1
+  - jsonpickle #=1.1
+  - pydispatcher #=2.0.5
+  - pillow #=5.4.1
+  # lxml available in conda-forge has been compiled to a icu version non compatible with tango 9
+  # I will use the lxml system version from Debian9
+  #- lxml #3.7.1
+  - enum34
+  - python-ldap
+  - pip
+  - pip:
+    - taurus==4.5.1
+    - sardana==2.5.0
