@@ -1,0 +1,11 @@
+name: zmqimg 
+channels:
+  - conda-forge
+  - tango-controls
+  - defaults
+dependencies:
+  - python=3.7
+  - zeromq
+  - pyzmq
+  - numpy
+  - opencv
