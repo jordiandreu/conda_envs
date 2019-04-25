@@ -1,0 +1,7 @@
+name: lima_py27
+channels:
+  - defaults
+  - esrf-bcu
+dependencies:
+  - python=2.7.13
+  - lima-camera-simulator-tango
