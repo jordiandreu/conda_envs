@@ -1,6 +1,5 @@
 name: lima_py37
 channels:
-  - defaults
   - esrf-bcu
 dependencies:
   - python=3.7
