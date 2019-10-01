@@ -16,4 +16,8 @@ dependencies:
   - lxml #=4.3.2
 # This is for development
   - pylint #=1.9.2
+# For HWR-3.0
+  - pip
+  - pip:
+    - ruamel.yaml
 

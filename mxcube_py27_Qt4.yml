@@ -15,3 +15,4 @@ dependencies:
   - pillow #=5.4.1
   - lxml #=4.3.2
   - enum34
+  - ruamel.yaml
