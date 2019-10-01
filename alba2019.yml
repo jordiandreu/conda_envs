@@ -1,0 +1,13 @@
+name: alba2019
+channels:
+  - defaults      
+  - tango-controls
+  - conda-forge
+dependencies:
+  - python=3.5
+  - itango
+  - pyqt=4
+  - pip
+  - pip:
+    - taurus==4.5.1
+
