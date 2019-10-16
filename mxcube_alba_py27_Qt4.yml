@@ -29,4 +29,4 @@ dependencies:
     - sardana==2.5.0
     - opencv-python
 
-# ALBAClusterClient and lucid2 need to be installed manually.
+# ALBAClusterClient and lucid2 need to be installed manually and bl13_modules.
