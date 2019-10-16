@@ -1,0 +1,19 @@
+name: py36
+channels:
+  - defaults      
+  - esrf-bcu
+  - tango-controls
+  - conda-forge
+dependencies:
+  - python=3.6
+  - itango
+  - lima-camera-simulator-tango
+  - numpy
+  - opencv
+  - zeromq
+  - pyzmq
+  - pyyaml
+  - click
+  - tabulate
+  - sphinx
+  - flake8

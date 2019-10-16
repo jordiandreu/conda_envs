@@ -1,6 +1,0 @@
-name: lima_py37
-channels:
-  - esrf-bcu
-dependencies:
-  - python=3.7
-  - lima-camera-simulator-tango
