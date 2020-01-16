@@ -29,7 +29,11 @@ dependencies:
     - sardana==2.5.0
     - opencv-python
 
-# Install manually using pip intall --no-deps (-e is optional).
+# Install manually using pip install -e <path-to-setup.py-file> --no-deps
 # ALBAClusterClient 2.0
 # lucid2
 # bl13_modules
+#
+# If the conda environment is installed a root we need root to have access to the repository.
+# If not, move the project to a temporary location accessible for root and install from there.
+# Later on, you can edit the easy-install.pth and *.egg.link files and set the correct path.
