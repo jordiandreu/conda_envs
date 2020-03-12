@@ -17,3 +17,6 @@ dependencies:
   - tabulate
   - sphinx
   - flake8
+  - black
+  - autopep8
+  - h5py
