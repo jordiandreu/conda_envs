@@ -1,0 +1,9 @@
+name: lima-eiger
+channels:
+  - esrf-bcu
+  - conda-forge
+dependencies:
+  - itango
+  - bitshuffle
+  - hdf5
+  - lima-camera-eiger
