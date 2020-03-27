@@ -8,7 +8,7 @@ dependencies:
   - tango=9.2.2
   - pytango
 #  - gevent
-#  - pyqt=4.11.4
+  - pyqt=4
 #  - numpy 
 #  - scipy
 #  - matplotlib
