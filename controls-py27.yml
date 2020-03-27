@@ -1,0 +1,27 @@
+name: controls-py27
+channels:
+  - defaults      
+  - tango-controls
+  - conda-forge
+dependencies:
+  - python=2.7.13
+  - tango=9.2.2
+  - pytango
+#  - gevent
+#  - pyqt=4.11.4
+#  - numpy 
+#  - scipy
+#  - matplotlib
+#  - suds-jurko 
+#  - pyyaml
+#  - jsonpickle
+#  - pydispatcher
+#  - pillow 
+#  - enum34
+#  - python-ldap
+  - pip
+  - pip:
+    - taurus
+    - sardana==2.8.3
+    - opencv-python
+
