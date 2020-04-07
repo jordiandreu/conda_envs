@@ -1,0 +1,31 @@
+name: mxcube-xaloc-py27
+channels:
+  - tango-controls
+  - anaconda
+  - defaults      
+  - jordiandreu
+dependencies:
+  - python=2.7
+  - tango=9
+  - pytango
+  - gevent
+  - pyqt=4.11.4
+  - numpy 
+  - scipy
+  - matplotlib
+  - suds-jurko
+  - pyyaml
+  - jsonpickle
+  - pydispatcher
+  - pillow
+  # - py-opencv # Conflicts, workaround use pip instead
+  - enum34
+  - python-ldap
+  - xaloc
+  - slurm_client
+  # - lucid3 # install manually with --no-deps (includes py-opencv as dependency)
+  - pip
+  - pip:
+    - sardana==2.8.3
+    - taurus==4.6.1
+    - opencv-python
