@@ -17,7 +17,7 @@ dependencies:
   - pyyaml
   - jsonpickle
 #  - pydispatcher
-#  - pillow 
+  - pillow 
   - enum34
 #  - python-ldap
   - pip
