@@ -20,9 +20,10 @@ dependencies:
   - pillow 
   - enum34
 #  - python-ldap
+  - pytest
   - pip
   - pip:
     - taurus
     - sardana==2.8.3
     - opencv-python
-
+    - math3d
