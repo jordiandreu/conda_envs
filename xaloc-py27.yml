@@ -9,19 +9,15 @@ dependencies:
   - python=2.7
   - tango=9.2.2
   - pytango
-#  - gevent
   - pyqt=4
+  #- pymca
   - numpy 
   - scipy
-  - matplotlib
-#  - suds-jurko 
-  - pymca
+  #- matplotlib
   - pyyaml
   - jsonpickle
-#  - pydispatcher
   - pillow 
   - enum34
-#  - python-ldap
   - h5py
   - pytest
   - commonwidgets
@@ -32,3 +28,5 @@ dependencies:
     - sardana==2.8.3
     - opencv-python
     - math3d
+    - matplotlib #2.2.5
+    - PyMca5 #5.5.5
