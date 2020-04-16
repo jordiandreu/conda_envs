@@ -4,6 +4,7 @@ channels:
   - tango-controls
   - conda-forge
   - anaconda
+  - jordiandreu
 dependencies:
   - python=2.7
   - tango=9.2.2
@@ -23,6 +24,7 @@ dependencies:
 #  - python-ldap
   - h5py
   - pytest
+  - commonwidgets
   - pip
   - pip:
     - taurus
