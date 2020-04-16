@@ -28,6 +28,7 @@ dependencies:
   - pip
   - pip:
     - taurus
+    - taurus_pyqtgraph
     - sardana==2.8.3
     - opencv-python
     - math3d
