@@ -1,0 +1,20 @@
+name: controls-py37
+channels:
+  - defaults      
+  - conda-forge
+  - tango-controls
+dependencies:
+  - python=3.7
+  - itango
+  - pyqt
+  - numpy
+  - opencv
+  - zeromq
+  - pyzmq
+  - pyyaml
+  - click
+  - tabulate
+  - sphinx
+  - flake8
+  - black
+  - autopep8
