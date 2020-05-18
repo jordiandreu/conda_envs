@@ -7,13 +7,11 @@ channels:
   - jordiandreu
 dependencies:
   - python=2.7
-  - tango=9.2.2
+  - tango=9.2.5
   - pytango
   - pyqt=4
-  #- pymca
   - numpy 
   - scipy
-  #- matplotlib
   - pyyaml
   - jsonpickle
   - pillow 
@@ -22,15 +20,17 @@ dependencies:
   - pytest
   - commonwidgets
   - cython
+  - ipython
+  - itango #This is a dependency from Sardana
   - pip
   - pip:
     - https://github.com/taurus-org/taurus/archive/develop.zip
     - taurus_pyqtgraph
-    - sardana==2.8.3
+#    - sardana==2.8.5 # Install manually using pip install -e . --no-deps
     - opencv-python
     - math3d
     - matplotlib #2.2.5
     - PyMca5 #5.5.5
-#    - guiqwt==3.0.3 # Install it manually using pip install . guiqwt==3.0.3
-#    - guidata==1.7.6 # Install it manually using pip install . guidata==1.7.6
+#    - guidata==1.7.6 # Install it manually using pip install guidata==1.7.6
+#    - guiqwt==3.0.3 # Install it manually using pip install guiqwt==3.0.3
 
