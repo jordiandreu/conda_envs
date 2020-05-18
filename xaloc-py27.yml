@@ -22,6 +22,7 @@ dependencies:
   - cython
   - ipython
   - itango #This is a dependency from Sardana
+  - gevent
   - pip
   - pip:
     - https://github.com/taurus-org/taurus/archive/develop.zip
