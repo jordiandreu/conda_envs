@@ -30,7 +30,7 @@ dependencies:
   - pip:
     - opencv-python
     #- matplotlib==1.5.1 # install manually with --no-deps
-    #- sardana==2.8.5 install from source with --no-deps
-    #- taurus==4.6.5 install from source with --no-deps
+    #- sardana==2.8.5 install from source 
+    #- taurus==4.6.5 install from repository -> pip install https://github.com/taurus-org/taurus/archive/develop.zip 
     #- lucid3  install from source with --no-deps (includes py-opencv as dependency)
 
