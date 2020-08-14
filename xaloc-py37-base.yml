@@ -1,0 +1,14 @@
+name: xaloc-py37-base
+channels:
+  - conda-forge
+  - tango-controls
+  - defaults      
+dependencies:
+  - python=3.7
+  - tango=9.2.5
+  - pytango
+  - pyqt=5
+  - numpy 
+  - scipy
+  - pip
+
