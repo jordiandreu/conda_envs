@@ -27,7 +27,7 @@ dependencies:
   - pip:
     - https://github.com/taurus-org/taurus/archive/develop.zip
     - taurus_pyqtgraph
-#    - sardana==2.8.5 # Install manually using pip install -e . --no-deps
+#    - sardana==2.8.5 # Install from source using pip install .
     - opencv-python
     - math3d
     - matplotlib #2.2.5
