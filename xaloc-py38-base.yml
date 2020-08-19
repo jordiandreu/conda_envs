@@ -1,0 +1,17 @@
+name: xaloc-py38-base
+channels:
+  - defaults      
+  - conda-forge
+  - tango-controls
+  - taurus-org
+dependencies:
+  - python=3.8
+  - tango=9
+  - taurus
+  - pytango
+  - pyqt=5
+  - ipython
+  - numpy 
+  - scipy
+  - pip
+  # sardana need to be installed from repo
