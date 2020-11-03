@@ -1,25 +1,35 @@
-# author: Jordi Andreu
-# email: jandreu@cells.es
-# desc: MXCuBE py27Qt4
-
 name: mxcube-py27
 channels:
   - defaults      
+  - tango-controls
   - conda-forge
+  - esrf-bcu
   - anaconda
+  - free
 dependencies:
-  - python=2.7.13
-  - gevent=1.1.2
-  - pyqt=4.11.4
-  - numpy 
-  - scipy=0.18.1
-  - matplotlib
-  - suds-jurko
-  - ruamel.yaml 
-  - jsonschema
-  - PIL
-  - jsonpickle #=1.1
-  - pydispatcher #=2.0.5
+  - python=2.7
+  - pytango=9.2.5
+  - gevent=1.2.2
+  - pyqt=4
   - enum34
-  - pyqtgraph
-  - pytest
+  - python-ldap
+  - scipy
+  - suds-jurko
+  - pyyaml
+  - jsonpickle
+  - pydispatcher
+  - pillow
+  - freetype # matplotlib dependency
+  - pkg-config # matplotlib dependency
+  - python-ldap # from free channel
+  - pip
+    #- pip:
+    #- opencv-python==4.1.0.25
+    #- matplotlib==1.5.1 # install manually with --no-deps
+    #- taurus==4.7.1a0 install from repository -> pip install https://github.com/taurus-org/taurus/archive/develop.zip 
+    #- xaloc install from production
+    #- slurm-client install from source
+    #- lucid3  install from source with --no-deps (includes py-opencv as dependency)
+    #- sardana==2.8.6 install from source 
+    #- py4j
+    #- f90nml 
