@@ -1,0 +1,37 @@
+name: xaloc-py38
+channels:
+  - conda-forge
+  - tango-controls
+  - taurus-org
+  - esrf-bcu
+  - defaults      
+dependencies:
+  - python=3.8
+  - tango=9
+  - taurus
+  - pytango
+  - pyqt=5
+  - gevent
+  - ipython
+  - itango
+  - numpy 
+  - scipy
+  - cython
+  - pip
+  - pyyaml
+  - jsonpickle
+  - pillow
+  - h5py
+  - pytest
+  - taurus
+  - taurus_pyqtgraph
+  - pip:
+    - opencv-python
+    - math3d==3.3.5
+    - matplotlib
+    - PyMca5
+    - sardana
+    # Install from sources
+#    - blxx_widgets
+#    - oav_library
+#    - xaloc
